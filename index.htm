@@ -1,0 +1,1057 @@
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="index_style.css">
+
+
+</head>
+
+
+
+<body>
+
+    <header class="navbar navbar-expand-lg navbar-light bg-white py-3 mx-3 ">
+
+        <div class="container-fluid ">
+            <!-- logo -->
+            <a class="mx-3" href="#"> <img src="https://cdn-new.tridge.com/assets/S27EOULS.svg" alt="" height="16"></a>
+
+
+            <!-- toggler Button  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar Items -->
+            <div class="collapse navbar-collapse mx-3 " id="navbarNav">
+                <div class="navbar-item ">
+                    Services
+                    <!--first menu-->
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="w-25" src="https://cdn-new.tridge.com/assets/DHWKQNAV.png">
+                                        <h3>Sourcing Hub</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur,cum mollitia expedita aliquam nulla
+                                            ullam repellat deserunt. Non atque dolore </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-25" src="https://cdn-new.tridge.com/assets/DAQMC2YK.png">
+                                        <h3>Intelligence&Data</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur,cum mollitia expedita aliquam nulla
+                                            ullam repellat deserunt. Non atque dolore </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-25" src="https://cdn-new.tridge.com/assets/5W2BPLKF.png">
+                                        <h3>Fullfillment Solution</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur,cum mollitia expedita aliquam nulla
+                                            ullam repellat deserunt. Non atque dolore </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="container ">
+
+                                <div class="row">
+                                    <div class="col-md-3 my-4 one">
+                                        <h4>Product Browser</h4>
+                                        <p>Instant global data access to +1,700 agri-food products. Start browsing for
+                                            your products of interest.</p>
+                                        <div class=" w-100 ">
+                                            <button type="button" class="button ">Browse Products <i
+                                                    class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 my-4 mx-5 one">
+                                        <h4>Supplier Center</h4>
+                                        <p>Maximize your potential with our Supplier Center. Manage your offers, booth,
+                                            connections with buyers, and more.</p>
+                                        <div class=" w-100 ">
+                                            <button type="button" class="button ">Go to Supplier Center<i
+                                                    class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="navbar-item ">
+                    Resources
+                    <!--second menu-->
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content a1">
+                            <a href="">
+                                <h3>Global Price Trends</h3>
+                            </a>
+                            <a href="">
+                                <h3>Webinars</h3>
+                            </a>
+                            <a href="">
+                                <h3>White Papers</h3>
+                            </a>
+                            <a href="">
+                                <h3>Data Coverage</h3>
+                            </a>
+                            <a href="">
+                                <h3>Advertise with Tridge</h3>
+                            </a>
+                            <a href="">
+                                <h3>Sourcing Requests Quota</h3>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-item ">
+                    Company
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content a1">
+                            <a href="">
+                                <h3>About Us</h3>
+                            </a>
+                            <a href="">
+                                <h3>Careers <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            </a>
+                            <a href="">
+                                <h3>Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            </a>
+                            <a href="">
+                                <h3>Contact Us <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--search button-->
+
+        <div class="w-50  d-flex justify-content-center ">
+
+            <!--sign in-->
+            <div class=" w-75 d-flex justify-content-end">
+                <div class="search-button " onclick="toggleSearchOverlay()">
+                    <i style="font-size: large;font-weight: 800;" class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--search bar-->
+            <div class="search-overlay" id="searchOverlay" onclick="hideSearchOverlay()">
+
+                <input type="text" class=" search-bar" placeholder="Search anything in food and agriculture">
+
+            </div>
+
+            <div class=" w-50 d-flex justify-content-end align-items-center">
+                <button type="button" class="button ">Sign In</button>
+            </div>
+            <!--lang-->
+            <div class=" w-75 ">
+                <i class=" fa-sharp fa-solid fa-globe"></i>
+                <select name="language" id="language">
+                    <option value="english" selected>English</option>
+                    <option value="frensh">Frensh</option>
+                    <option value="italian">italian</option>
+                    <option value="ِarabic">العربية</option>
+                </select>
+            </div>
+
+
+
+
+        </div>
+    </header>
+
+    <div class="blurry-background"></div>
+
+    <section class="second ">
+        <div class=" container  p-5 my-3 a1">
+            <i style="color: rgb(116, 121, 129);" class="fa-solid fa-angle-left"></i> <a href="#"
+                style=" color: rgb(116, 121, 129);"> Back to Product Browser</a>
+        </div>
+        <div class="container p ">
+            <div class=" w-50 m-auto ">
+                <h1 style="font-size: 30px; font-weight: 600; margin-left: 40px;padding-left: 40px;">Browse Products by Category</h1>
+            </div>
+        </div>
+        <div class="container my-5 ">
+            <input type="text" class="w-50 rounded-4 p-2 dfg" style="outline: none;" placeholder="Search Products">
+
+        </div>
+    </section>
+
+    <!--products-->
+    <section class="bn  py-3">
+        <div class="container ">
+
+            <div class="menu rounded-3  mm" style=" background-color: #f1f1f1;">
+
+                <div class="menu-item pyp " onclick="toggleSubMenu(1)"> <span>Seafood</span>
+                    <span style="color: rgb(116, 121, 129);;">(224)</span>
+                    <div id="submenu1" class="submenu">
+                        <div class="submenu-item"><span class="gh">Fish </span>
+                            <span class="vb">(183)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Crustacean </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Seafood </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Shellfish </span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Echinoderms </span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cephalopod</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Dried Seafood</span>
+                            <span class="vb">(2)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(2)"> <span>Vegetables</span>
+                    <span style="color: rgb(116, 121, 129);;">(162)</span>
+                    <div id="submenu2" class="submenu">
+                        <div class="submenu-item"><span class="gh">Leafy Green </span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Root </span>
+                            <span class="vb">(35)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Mushroom </span>
+                            <span class="vb">(25)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Vegetable </span>
+                            <span class="vb">(22)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Marrow </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cruciferous</span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Allium</span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Edible Plant Stem</span>
+                            <span class="vb">(6)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item  py-3" onclick="toggleSubMenu(3)"> <span>Packaged Fruits & Vegetables </span>
+                    <span style="color: rgb(116, 121, 129);;">(142)</span>
+                    <div id="submenu3" class="submenu">
+                        <div class="submenu-item"><span class="gh">Packaged Fruits </span>
+                            <span class="vb">(78)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Vegetables </span>
+                            <span class="vb">(64)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(4)"> <span>Fruits</span>
+                    <span style="color: rgb(116, 121, 129);;">(139)</span>
+                    <div id="submenu4" class="submenu">
+                        <div class="submenu-item"><span class="gh">Tropical </span>
+                            <span class="vb">(66)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Berry </span>
+                            <span class="vb">(28)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Citrus </span>
+                            <span class="vb">(15)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Drupe (Stone, Pit) </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Pome (Core) </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Melon</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(5)" aria-selected="true"> <span>Grains, Cereal &
+                        Legumes</span>
+                    <span style="color: rgb(116, 121, 129);;">(95)</span>
+                    <div id="submenu5" class="submenu">
+                        <div class="submenu-item"><span class="gh">Legumes</span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Milling Products </span>
+                            <span class="vb">(38)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Grain & Cereals</span>
+                            <span class="vb">(17)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(6)"> <span>Oil & Fats</span>
+                    <span style="color: rgb(116, 121, 129);;">(89)</span>
+                    <div id="submenu6" class="submenu">
+                        <div class="submenu-item"><span class="gh">Vegetable Oil </span>
+                            <span class="vb">(62)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Animal Oil & Fats </span>
+                            <span class="vb">(18)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Vegetable Fats</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Wax</span>
+                            <span class="vb">(2)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Chemically Modified Edible Fats</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Degras</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Glycerol </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(7)"> <span>Herbs, Spices & Seasonings </span>
+                    <span style="color: rgb(116, 121, 129);;">(78)</span>
+                    <div id="submenu7" class="submenu">
+                        <div class="submenu-item"><span class="gh">Herbs </span>
+                            <span class="vb">(32)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Spices </span>
+                            <span class="vb">(31)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Honey</span>
+                            <span class="vb">(5)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Sugar Syrup & Artificial Honey </span>
+                            <span class="vb">(5)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Sugar</span>
+                            <span class="vb">(3)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Molasses</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Salt </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(8)"> <span>Nuts & Seeds </span>
+                    <span style="color: rgb(116, 121, 129);;">(72)</span>
+                    <div id="submenu8" class="submenu">
+                        <div class="submenu-item"><span class="gh">Seeds / Oil Seeds </span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Nuts </span>
+                            <span class="vb">(30)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">General Seeds</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Nuts </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(9)"> <span>Packaged Meat & Seafood</span>
+                    <span style="color: rgb(116, 121, 129);;">(57)</span>
+                    <div id="submenu9" class="submenu">
+                        <div class="submenu-item"><span class="gh">Packaged Meat </span>
+                            <span class="vb">(29)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Seafood </span>
+                            <span class="vb">(28)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item  " onclick="toggleSubMenu(10)"> <span>Seafood</span>
+                    <span style="color: rgb(116, 121, 129);;">(224)</span>
+                    <div id="submenu10" class="submenu">
+                        <div class="submenu-item"><span class="gh">Fish </span>
+                            <span class="vb">(183)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Crustacean </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Seafood </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Shellfish </span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Echinoderms </span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cephalopod</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Dried Seafood</span>
+                            <span class="vb">(2)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(11)"> <span>Vegetables</span>
+                    <span style="color: rgb(116, 121, 129);;">(162)</span>
+                    <div id="submenu11" class="submenu">
+                        <div class="submenu-item"><span class="gh">Leafy Green </span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Root </span>
+                            <span class="vb">(35)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Mushroom </span>
+                            <span class="vb">(25)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Vegetable </span>
+                            <span class="vb">(22)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Marrow </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cruciferous</span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Allium</span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Edible Plant Stem</span>
+                            <span class="vb">(6)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item  py-3" onclick="toggleSubMenu(12)"> <span>Packaged Fruits & Vegetables </span>
+                    <span style="color: rgb(116, 121, 129);;">(142)</span>
+                    <div id="submenu12" class="submenu">
+                        <div class="submenu-item"><span class="gh">Packaged Fruits </span>
+                            <span class="vb">(78)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Vegetables </span>
+                            <span class="vb">(64)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(13)"> <span>Fruits</span>
+                    <span style="color: rgb(116, 121, 129);;">(139)</span>
+                    <div id="submenu13" class="submenu">
+                        <div class="submenu-item"><span class="gh">Tropical </span>
+                            <span class="vb">(66)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Berry </span>
+                            <span class="vb">(28)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Citrus </span>
+                            <span class="vb">(15)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Drupe (Stone, Pit) </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Pome (Core) </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Melon</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(14)"> <span>Grains, Cereal & Legumes</span>
+                    <span style="color: rgb(116, 121, 129);;">(95)</span>
+                    <div id="submenu14" class="submenu">
+                        <div class="submenu-item"><span class="gh">Legumes</span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Milling Products </span>
+                            <span class="vb">(38)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Grain & Cereals</span>
+                            <span class="vb">(17)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(15)"> <span>Oil & Fats</span>
+                    <span style="color: rgb(116, 121, 129);;">(89)</span>
+                    <div id="submenu15" class="submenu">
+                        <div class="submenu-item"><span class="gh">Vegetable Oil </span>
+                            <span class="vb">(62)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Animal Oil & Fats </span>
+                            <span class="vb">(18)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Vegetable Fats</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Wax</span>
+                            <span class="vb">(2)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Chemically Modified Edible Fats</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Degras</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Glycerol </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(16)"> <span>Herbs, Spices & Seasonings </span>
+                    <span style="color: rgb(116, 121, 129);;">(78)</span>
+                    <div id="submenu16" class="submenu">
+                        <div class="submenu-item"><span class="gh">Herbs </span>
+                            <span class="vb">(32)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Spices </span>
+                            <span class="vb">(31)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Honey</span>
+                            <span class="vb">(5)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Sugar Syrup & Artificial Honey </span>
+                            <span class="vb">(5)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Sugar</span>
+                            <span class="vb">(3)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Molasses</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Salt </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(17)"> <span>Nuts & Seeds </span>
+                    <span style="color: rgb(116, 121, 129);;">(72)</span>
+                    <div id="submenu17" class="submenu">
+                        <div class="submenu-item"><span class="gh">Seeds / Oil Seeds </span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Nuts </span>
+                            <span class="vb">(30)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">General Seeds</span>
+                            <span class="vb">(1)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Nuts </span>
+                            <span class="vb">(1)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(18)"> <span>Packaged Meat & Seafood</span>
+                    <span style="color: rgb(116, 121, 129);;">(57)</span>
+                    <div id="submenu18" class="submenu">
+                        <div class="submenu-item"><span class="gh">Packaged Meat </span>
+                            <span class="vb">(29)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Seafood </span>
+                            <span class="vb">(28)</span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="menu-item  " onclick="toggleSubMenu(19)"> <span>Seafood</span>
+                    <span style="color: rgb(116, 121, 129);;">(224)</span>
+                    <div id="submenu19" class="submenu">
+                        <div class="submenu-item"><span class="gh">Fish </span>
+                            <span class="vb">(183)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Crustacean </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Seafood </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Shellfish </span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Echinoderms </span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cephalopod</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Dried Seafood</span>
+                            <span class="vb">(2)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(20)"> <span>Vegetables</span>
+                    <span style="color: rgb(116, 121, 129);;">(162)</span>
+                    <div id="submenu20" class="submenu">
+                        <div class="submenu-item"><span class="gh">Leafy Green </span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Root </span>
+                            <span class="vb">(35)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Mushroom </span>
+                            <span class="vb">(25)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Other Vegetable </span>
+                            <span class="vb">(22)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Marrow </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Cruciferous</span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Allium</span>
+                            <span class="vb">(9)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Edible Plant Stem</span>
+                            <span class="vb">(6)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item  py-3" onclick="toggleSubMenu(21)"> <span>Packaged Fruits & Vegetables </span>
+                    <span style="color: rgb(116, 121, 129);;">(142)</span>
+                    <div id="submenu21" class="submenu">
+                        <div class="submenu-item"><span class="gh">Packaged Fruits </span>
+                            <span class="vb">(78)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Packaged Vegetables </span>
+                            <span class="vb">(64)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(22)"> <span>Fruits</span>
+                    <span style="color: rgb(116, 121, 129);;">(139)</span>
+                    <div id="submenu22" class="submenu">
+                        <div class="submenu-item"><span class="gh">Tropical </span>
+                            <span class="vb">(66)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Berry </span>
+                            <span class="vb">(28)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Citrus </span>
+                            <span class="vb">(15)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Drupe (Stone, Pit) </span>
+                            <span class="vb">(14)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Pome (Core) </span>
+                            <span class="vb">(11)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Melon</span>
+                            <span class="vb">(4)</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-item py-3 " onclick="toggleSubMenu(23)"> <span>Grains, Cereal & Legumes</span>
+                    <span style="color: rgb(116, 121, 129);;">(95)</span>
+                    <div id="submenu23" class="submenu">
+                        <div class="submenu-item"><span class="gh">Legumes</span>
+                            <span class="vb">(40)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Milling Products </span>
+                            <span class="vb">(38)</span>
+                        </div>
+                        <div class="submenu-item"><span class="gh">Grain & Cereals</span>
+                            <span class="vb">(17)</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="hh px-5">
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/9f/63/d9/9f63d965a26c8485699ca4f0b1ef1f885afe8cf1.jpg">
+                            </div>
+                            <span>Rice</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/7f/cf/4a/7fcf4ada7a1c44addfea15270222f394997bad84.jpg">
+                            </div>
+                            <span>Dried Common</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/91/a4/15/91a41569ed9068351c5c5dbd28de9634d47e1904.jpg">
+                            </div>
+                            <span>Maize (Corn)</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/f1/fe/4b/f1fe4b262cfebbc0017cc47ff6d31f7f6403a3e0.jpg">
+                            </div>
+                            <span>Wheat</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hh  px-5">
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/72/86/b1/7286b1b1397fb5f2cead0a481435a58e31bd72d3.jpg">
+                            </div>
+                            <span>Barley</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5 ">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/ce/11/40/ce1140206e339987a5353344aef5cd83464ffaad.jpg">
+                            </div>
+                            <span>Dried Mung Bean</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5 ">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/cc/8f/af/cc8faf74f5844cd125151bcb82c3c5efb7ab0cd0.jpg">
+                            </div>
+                            <span>Dried Adzuki</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/95/aa/98/95aa9860ebd765f5743100525b85414a36215aee.jpg">
+                            </div>
+                            <span>Millet</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hh  px-5">
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/0d/a3/89/0da389af988f9a193f852db9c26a6e10d2b20bbc.jpg">
+                            </div>
+                            <span>Dried Chickpea</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/dc/e1/3c/dce13c2fe6e41f03d53587354b28a76734cbeb99.jpg">
+                            </div>
+                            <span>Dried Lentil</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/f3/25/b1/f325b1b404c8d7c7b328bb8aef514751b39fe579.jpg">
+                            </div>
+                            <span>Sorghum</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/0e/2e/6b/0e2e6b471f8be0139af1cf9e688797aca0b990cb.jpg">
+                            </div>
+                            <span>Rye</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hh  px-5">
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/10/1d/e9/101de9738ea5df419a1e93cde0cdb581e0ee54fb.jpg">
+                            </div>
+                            <span>Dried Black </span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/5c/86/84/5c8684f6684d180c214ebcbc791f9cdd9b27448f.jpg">
+                            </div>
+                            <span>Wheat Flour</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/f2/f0/1c/f2f01cec9bc202ef3108fe8fd976dfdfa3f4577b.jpg">
+                            </div>
+                            <span>Soybean</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/59/8b/89/598b89c885f806c5fcc712b83b10c7065618e092.jpg">
+                            </div>
+                            <span>Dried Cowpea</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="hh  p-5">
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/92/3f/5a/923f5a8c72a4c50d705f2baed3c22456664cad6e.jpg">
+                            </div>
+                            <span>Oats </span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5 ">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/1b/d3/11/1bd3113d7aaa8041257c9ef0ded2dba736327804.jpg">
+                            </div>
+                            <span>Yam Bean</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/c3/9f/ce/c39fce9441c31049149ef5dd28f81ff48e8ce420.jpg">
+                            </div>
+                            <span>Cassava Starch</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 px-2 a1">
+                        <a href="#">
+                            <div class="w-75 my-5">
+                                <img class="w-75"
+                                    src="https://images.tridge.com/200x200/image/original/87/e0/e9/87e0e9a5cc89b8ce032519f9c72ad48061cdc7ee.jpg">
+                            </div>
+                            <span>Lima Bean</span>
+                            <p class="vb">Lorem ipsum nihil,nulla cumque nobis delectus!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="  w-100 d-flex justify-content-center ">
+        <button type="button" class=" button kl"> <span> Show more</span></button>
+    </div>
+
+    <hr class="my-5">
+
+    <footer class=" asd mx-5 my-5 ">
+        <div class=" asd mx-5 ">
+            <div class=" mx-5">
+                <span class="my-5 py-5">SOURCING HUB</span>
+                <div class="a1 jk my-2" style="margin-top: 15px;">
+                    <a href="#" class="ad"> <span class="word">Introduction</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word ">Home</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Sourcing Requests</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Exhibition 365 - Booths</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Exhibition 365 - Events</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Exhibition 365 - Overview</span></a>
+                </div>
+            </div>
+            <div class=" mx-5">
+                <span class="my-5 py-5">INTELLIGENCE & DATA</span>
+                <div class="a1 jk my-2" style="margin-top: 15px;">
+                    <a href="#" class="ad"> <span class="word">Dashboard</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word ">News & Insights</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Analysis & Reports</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Price Data</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Trade Data</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Production Data</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Seasonality Data</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Weather Data</span></a>
+                </div>
+            </div>
+            <div class=" mx-5">
+                <span class="my-5 py-5">FULFILLMENT SOLUTION</span>
+                <div class="a1 jk my-2" style="margin-top: 15px;">
+                    <a href="#" class="ad"> <span class="word">Introduction</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word ">Introduction</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Home</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Browse</span></a>
+                </div>
+     
+            </div>
+            <div class=" mx-5">
+                <span class="my-5 py-5">RESOURCES</span>
+                <div class="a1 jk my-2" style="margin-top: 15px;">
+                    <a href="#" class="ad"> <span class="word">Global Price Trends</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word ">Webinars</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">White Papers</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Data Coverage</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Advertise with Tridge</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Sourcing Requests Quota</span></a>
+                </div>
+            </div>
+            <div class=" mx-3">
+                <span class="my-5 py-5">COMPANY</span>
+                <div class="a1 jk my-2" style="margin-top: 15px;">
+                    <a href="#" class="ad"> <span class="word">About Us</span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word ">Blog <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Careers <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                </div>
+                <div class="a1 my-2">
+                    <a href="#"> <span class="word">Contact Us <i class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+                </div>
+           
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>
